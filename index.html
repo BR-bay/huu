@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff7eb3, #ff758c);
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+            margin-bottom: 10px;
+        }
+
+        .heart {
+            color: red;
+            font-size: 2rem;
+            animation: beat 1s infinite;
+        }
+
+        @keyframes beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        iframe {
+            margin: 20px auto;
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .romantic-text {
+            margin: 20px auto;
+            max-width: 800px;
+            font-size: 1.2rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .icons {
+            margin-top: 20px;
+        }
+
+        .icons i {
+            font-size: 2rem;
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .icons i:hover {
+            transform: scale(1.2);
+        }
+
+        .whatsapp-link {
+            margin-top: 20px;
+            display: inline-block;
+            background: #25d366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+            transition: background 0.3s, transform 0.3s;
+        }
+
+        .whatsapp-link:hover {
+            background: #1da851;
+            transform: scale(1.1);
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            iframe {
+                height: 200px;
+            }
+
+            .romantic-text {
+                font-size: 1rem;
+            }
+
+            .icons i {
+                font-size: 1.5rem;
+            }
+
+            .whatsapp-link {
+                font-size: 1rem;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><span class="heart">❤️</span> <span class="heart">❤️</span></h1>
+
+        <iframe src="https://www.youtube.com/embed/EtXTXbJ9XCo" width="560" height="315" allowfullscreen></iframe>
+        <div class="romantic-text">
+            
+
+        </div>
+        <div class="icons">
+            <i class="fas fa-kiss-wink-heart" onclick="alert('huuuuu masam')"></i>
+            <i class="fas fa-heart" onclick="alert('busuuuuukkkk')"></i>
+            <i class="fas fa-star" onclick="alert('aceeemmmm!')"></i>
+        </div>
+        <a class="whatsapp-link" href="https://wa.me/62085212637719?text=Halo%20Bayu%20Ramazandi%2C%20saya%20telah%20membaca%20pesan%20cintamu%20yang%20indah%20di%20halaman%20web!" target="_blank">Balas Pesan Cinta di WhatsApp</a>
+    </div>
+</body>
+</html>
